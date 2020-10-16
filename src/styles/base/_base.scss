@@ -15,6 +15,36 @@ button:disabled {
   cursor: default;
 }
 
+h1 {
+  margin: 0;
+}
+
 .is-active {
   font-weight: bold;
+}
+
+// unit sizing
+
+.md-padding-h {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.md-padding-v {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 667px) {
+  h2 {
+    font-size: 16px;
+  }
+
+  .md-padding-h {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .md-padding-v {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }

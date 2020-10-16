@@ -26,13 +26,17 @@ export class ExpenseListFilters extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div className="filter content-container">
+        <h2>Search By Filter</h2>
         <input
+          placeholder="Enter a world"
+          className="filter-input"
           type="text"
           value={this.props.filters.text}
           onChange={this.onTextChange}
         />
         <select
+          className="filter-select"
           value={this.props.filters.sortBy}
           onChange={this.onSortChange}
         >

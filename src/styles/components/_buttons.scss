@@ -1,0 +1,35 @@
+
+.button {
+    color: #fff;
+    padding: 8px;
+}
+.addbtn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.logout_btn {
+    background-color: #dc3545;
+    border: none;
+}
+
+.login_button {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    left: calc(50% - 75px);
+    top: calc(50% - 25px);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    cursor: pointer;
+    line-height: 12px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  @media only screen and (max-width: 667px) {
+      .button {
+        font-size: 18px !important;
+        padding: 4px !important;
+      }
+  }

@@ -1,0 +1,19 @@
+.filter {
+    align-items: baseline;
+    align-content: baseline;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 90rem;
+    padding: 10px;
+    box-shadow: 1px 4px 8px 0px rgba(191 ,191, 191 , 50%);
+}
+input.filter-input , .filter-select  {
+    padding: 12px 2px;
+}
+
+@media only screen and (max-width: 667px) {
+    .filter {
+        display: block;
+        max-width: 90%;
+    }
+}
