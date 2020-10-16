@@ -6,6 +6,7 @@
     max-width: 90rem;
     padding: 10px;
     box-shadow: 1px 4px 8px 0px rgba(191 ,191, 191 , 50%);
+
 }
 input.filter-input , .filter-select  {
     padding: 12px 2px;
@@ -15,5 +16,6 @@ input.filter-input , .filter-select  {
     .filter {
         display: block;
         max-width: 90%;
+        margin-bottom: 20px;
     }
 }

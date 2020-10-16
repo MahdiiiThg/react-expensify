@@ -19,7 +19,7 @@ export class EditExpensePage extends React.Component {
           expense={this.props.expense}
           onSubmit={this.onSubmit}
         />
-        <button onClick={this.onRemove}>Remove</button>
+        <button className="button logout_btn mb-md" onClick={this.onRemove}>Remove</button>
       </div>
     );
   }

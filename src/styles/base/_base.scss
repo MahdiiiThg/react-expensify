@@ -34,6 +34,10 @@ h1 {
   padding-bottom: 30px;
 }
 
+.mb-md {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 667px) {
   h2 {
     font-size: 16px;
@@ -47,4 +51,5 @@ h1 {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
 }

@@ -19,3 +19,13 @@
     color: #383838;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 667px) {
+    .expenseListItem {
+        padding: 5px 3px;
+    }
+    .expenseListItem__title h3 , 
+    .expenseListItem__title p {
+      font-size: 16px !important;
+    }
+}
